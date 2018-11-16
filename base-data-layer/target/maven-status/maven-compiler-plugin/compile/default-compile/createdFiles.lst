@@ -1,0 +1,4 @@
+model/BaseEntity.class
+model/IdBaseEntity.class
+model/BaseDal.class
+hibernate/BaseDao.class
