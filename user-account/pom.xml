@@ -13,19 +13,10 @@
 
     <dependencies>
         <dependency>
-            <groupId>bank</groupId>
-            <artifactId>base-data-layer</artifactId>
-        </dependency>
-        <dependency>
             <groupId>com.cybrilla</groupId>
             <artifactId>base-data-layer</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>joda-time</groupId>
-            <artifactId>joda-time</artifactId>
-            <version>2.10</version>
         </dependency>
         <dependency>
             <groupId>joda-time</groupId>
