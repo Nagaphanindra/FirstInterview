@@ -18,6 +18,12 @@
         <groupId>bank</groupId>
         <artifactId>base-data-layer</artifactId>
     </dependency>
+        <dependency>
+            <groupId>com.cybrilla</groupId>
+            <artifactId>user-account</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
 
     </dependencies>
 

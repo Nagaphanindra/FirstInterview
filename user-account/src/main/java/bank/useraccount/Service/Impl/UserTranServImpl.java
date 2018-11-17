@@ -47,9 +47,13 @@ public class UserTranServImpl implements UserTranService {
     @Override
     public List<UserTranVO> getAllTran() {
         List<UserTranVO> userTranVOS = new ArrayList<>();
-        List<UserTransaction> list =
+        List<UserTransaction> list = userTranDao.findAll();
+        for (UserTransaction userTransaction : list){
 
+            UserTranVO userTranVO = userTranMapper.mapEntitytoVO(userTransaction);
+            userTranVOS.add(userTranVO);
+        }
 
-        return null;
+        return userTranVOS;
     }
 }
